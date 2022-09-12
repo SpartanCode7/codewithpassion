@@ -6,7 +6,8 @@ function skills() {
     <div className="skills">
         <div className="skills__inner">
             <div className="skills__heading">
-                {/* <h2>Skills</h2> */}
+                <h2>What I know...</h2>
+                <p>You will find lots of things, I passionate about my Profession.</p>
             </div>
             <div className="frontend lang__outer__box">
                 <h3 className="skills__heading">Frontend</h3>

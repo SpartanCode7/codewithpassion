@@ -1,40 +1,32 @@
 .skills {
-    background-color: #1E1F21;
-    color: #FFFFFF;
-    padding: 70px 0;
+    padding: 0px 0;
     .skills__inner {
         max-width: 1170px;
         margin: 0 auto;
-        .skills__heading {
-            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        }
         .lang__outer__box {
+            margin: 70px 0;
             box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
             .skills__heading {
-                background: rgba( 186, 23, 35, 0.15 );
-                box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-                backdrop-filter: blur( 4px );
-                -webkit-backdrop-filter: blur( 4px );
+                box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
                 border-radius: 4px;
-                font-size: 40px;
+                font-size: 19px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 margin: 0;
-                color: rgba(255, 255, 255, 0.711);
-                padding: 0px 10px;
+                padding: 5px 4px;
+                width: 113px;
              }
             .skills__box {
                 display: flex;
                 flex-flow: wrap;
                 gap: 2.66%;
                 .skills__icon__box {
-                    width: 23%;
+                    width: 10%;
                     display: flex;
                     gap: 20px;
                     flex-direction: column;
-                    margin-bottom: 40px;
-                    padding: 40px;
+                    padding: 22px 10px;
                     .icon {
                         svg {
                             width: 100px !important;
@@ -46,8 +38,6 @@
                             display: inline-block;
                             background: rgba(255, 255, 255, 0.25);
                             box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-                            backdrop-filter: blur(4px);
-                            -webkit-backdrop-filter: blur(4px);
                             border-radius: 2px;
                             padding: 4px 30px;
                             margin-top: 0;
